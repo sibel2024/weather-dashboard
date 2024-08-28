@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('sky.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(62,192,251);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white; 
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+input {
+  background-color: white; 
+  color: black; 
+}
+
+button {
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+#weatherDisplay {
+  margin-top: 20px;
+}
+
+#loading {
+  font-size: 18px;
+  color: lightblue;
+}
